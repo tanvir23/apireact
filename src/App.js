@@ -11,6 +11,7 @@ class App extends Component {
   }
   
   handleOnClick(){
+    // return createRoom('tanvir', 'fakeP@55');
     return joinRoom('tanvir');
   }
 
@@ -31,7 +32,7 @@ class App extends Component {
             <img 
               src={call} 
               alt="call logo" />
-            Call Paramedic
+            Receive call
           </button>
         </div>
     );
